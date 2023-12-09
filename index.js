@@ -27,3 +27,14 @@
 // if (-1 && 0) alert( 'second' );//0
 // if (null || -1 && 1) alert( 'third' );//third+
 
+for(let i=2; i<=10; i++){
+
+    console.log(`${i} karra jadvali`)
+
+    for(let j=1; j<=10; j++){
+
+        console.log(`${i} * ${j} = ${i*j}`)
+
+    }
+
+}
