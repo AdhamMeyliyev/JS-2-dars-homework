@@ -69,16 +69,20 @@
 
 
 // JS 4-DARS HOMEWORK 1
-// function calcMin(a=10, b=-1){
+// function calcMin(a,b){
 //     if(a>b)
 //         console.log(b);
+//     else if(a==b)
+//         console.log(`a = b = ${a || b}`);
 //     else
 //         console.log(a);
 
 //         return calcMin;
 // }
 
-// console.log(calcMin());
+// console.log(calcMin(a=3,b=5));
+// console.log(calcMin(a=3,b=-1));
+// console.log(calcMin(a=1,b=1));
 
 
 
@@ -86,7 +90,7 @@
 // JS 4-DARS HOMEWORK 2
 
 // function calcPow(a=3){
-//     let result = a*a;
+//     let result = a**3;
 //     console.log(result);
    
 // }
